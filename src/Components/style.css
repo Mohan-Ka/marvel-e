@@ -10,26 +10,15 @@ body{
     height: 550px;
 }
 .search-bar{
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 2rem;
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-}
-.header .search{
-    outline: none;
-    background: none;
-    border: none;
-    margin-left: 2rem;
-    width: 350px;
-    height: 35px;
     border-radius: 1rem;
-    color: white;
-    font-size: 20px;
-    padding: 1.2rem;
     border:2px solid #B41F23
 }
+
 .content{
     width: 80%;
     margin: 3rem auto;
@@ -145,8 +134,8 @@ p{
   }
   
   .tabs button:hover {
-    color: #007bff; /* Change the text color on hover */
-    /* You can also add other styles like background color or border on hover */
+    color: #007bff; 
+    transform: scale(1.5);
   }
   
   .filter-sort {
@@ -188,3 +177,58 @@ color: yellow;
 font-size: 15px;
 
 }
+
+
+
+.load-more-button {
+    background-color: #007bff;
+    color: solid red;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .load-more-button:hover {
+    background-color: lightGray;
+    color: tomato;
+  }
+  
+
+
+
+.filter {
+    margin-bottom: 20px; /* Add some top margin for spacing */
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+    color:white;
+    margin-left: 20px;
+  }
+  
+  .filter select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the load more button */
+  .load-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .load-more-button:hover {
+    background-color: lightGray;
+    color: tomato;
+  }
+  
